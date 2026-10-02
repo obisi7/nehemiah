@@ -5,11 +5,12 @@
       "title": "Arise and Build",
       "reference": "Nehemiah 2:17",
       "verseText": "Come, let us rebuild the wall of Jerusalem, that we may no longer be in disgrace.",
-      "phraseTokens": [
-        { "tokenId": "L1T1", "text": "Come, let us rebuild", "audioTriggerId": "aud_neh_2_17_01" },
-        { "tokenId": "L1T2", "text": "the wall of Jerusalem,", "audioTriggerId": "aud_neh_2_17_02" },
-        { "tokenId": "L1T3", "text": "that we may no longer", "audioTriggerId": "aud_neh_2_17_03" },
-        { "tokenId": "L1T4", "text": "be in disgrace.", "audioTriggerId": "aud_neh_2_17_04" }
+      "puzzleWords": [
+        { "tokenId": "L1W1", "text": "Let" },
+        { "tokenId": "L1W2", "text": "us" },
+        { "tokenId": "L1W3", "text": "rebuild" },
+        { "tokenId": "L1W4", "text": "the" },
+        { "tokenId": "L1W5", "text": "wall." }
       ],
       "hintText": "Nehemiah looked at the broken wall at night and told the people it was time to start fixing it together."
     },
@@ -18,11 +19,14 @@
       "title": "A Mind to Work",
       "reference": "Nehemiah 4:6",
       "verseText": "So we built the wall, for the people had a mind to work.",
-      "phraseTokens": [
-        { "tokenId": "L2T1", "text": "So we built", "audioTriggerId": "aud_neh_4_6_01" },
-        { "tokenId": "L2T2", "text": "the wall,", "audioTriggerId": "aud_neh_4_6_02" },
-        { "tokenId": "L2T3", "text": "for the people", "audioTriggerId": "aud_neh_4_6_03" },
-        { "tokenId": "L2T4", "text": "had a mind to work.", "audioTriggerId": "aud_neh_4_6_04" }
+      "puzzleWords": [
+        { "tokenId": "L2W1", "text": "The" },
+        { "tokenId": "L2W2", "text": "people" },
+        { "tokenId": "L2W3", "text": "had" },
+        { "tokenId": "L2W4", "text": "a" },
+        { "tokenId": "L2W5", "text": "mind" },
+        { "tokenId": "L2W6", "text": "to" },
+        { "tokenId": "L2W7", "text": "work." }
       ],
       "hintText": "Everyone worked together, even when the job was hard, because they wanted to finish it."
     },
@@ -31,11 +35,13 @@
       "title": "A Great Work",
       "reference": "Nehemiah 6:3",
       "verseText": "I am doing a great work, so I cannot come down.",
-      "phraseTokens": [
-        { "tokenId": "L3T1", "text": "I am doing", "audioTriggerId": "aud_neh_6_3_01" },
-        { "tokenId": "L3T2", "text": "a great work,", "audioTriggerId": "aud_neh_6_3_02" },
-        { "tokenId": "L3T3", "text": "so I cannot", "audioTriggerId": "aud_neh_6_3_03" },
-        { "tokenId": "L3T4", "text": "come down.", "audioTriggerId": "aud_neh_6_3_04" }
+      "puzzleWords": [
+        { "tokenId": "L3W1", "text": "I" },
+        { "tokenId": "L3W2", "text": "am" },
+        { "tokenId": "L3W3", "text": "doing" },
+        { "tokenId": "L3W4", "text": "a" },
+        { "tokenId": "L3W5", "text": "great" },
+        { "tokenId": "L3W6", "text": "work." }
       ],
       "hintText": "Enemies tried to distract Nehemiah from finishing the wall, but he stayed focused on the job."
     },
@@ -44,10 +50,15 @@
       "title": "The Joy of the Lord",
       "reference": "Nehemiah 8:10",
       "verseText": "The joy of the LORD is your strength.",
-      "phraseTokens": [
-        { "tokenId": "L4T1", "text": "The joy", "audioTriggerId": "aud_neh_8_10_01" },
-        { "tokenId": "L4T2", "text": "of the LORD", "audioTriggerId": "aud_neh_8_10_02" },
-        { "tokenId": "L4T3", "text": "is your strength.", "audioTriggerId": "aud_neh_8_10_03" }
+      "puzzleWords": [
+        { "tokenId": "L4W1", "text": "The" },
+        { "tokenId": "L4W2", "text": "joy" },
+        { "tokenId": "L4W3", "text": "of" },
+        { "tokenId": "L4W4", "text": "the" },
+        { "tokenId": "L4W5", "text": "Lord" },
+        { "tokenId": "L4W6", "text": "is" },
+        { "tokenId": "L4W7", "text": "your" },
+        { "tokenId": "L4W8", "text": "strength." }
       ],
       "hintText": "When the wall was finished, the people celebrated because God had helped them."
     },
@@ -56,11 +67,15 @@
       "title": "God Will Give Success",
       "reference": "Nehemiah 2:20",
       "verseText": "The God of heaven will give us success.",
-      "phraseTokens": [
-        { "tokenId": "L5T1", "text": "The God", "audioTriggerId": "aud_neh_2_20_01" },
-        { "tokenId": "L5T2", "text": "of heaven", "audioTriggerId": "aud_neh_2_20_02" },
-        { "tokenId": "L5T3", "text": "will give us", "audioTriggerId": "aud_neh_2_20_03" },
-        { "tokenId": "L5T4", "text": "success.", "audioTriggerId": "aud_neh_2_20_04" }
+      "puzzleWords": [
+        { "tokenId": "L5W1", "text": "The" },
+        { "tokenId": "L5W2", "text": "God" },
+        { "tokenId": "L5W3", "text": "of" },
+        { "tokenId": "L5W4", "text": "heaven" },
+        { "tokenId": "L5W5", "text": "will" },
+        { "tokenId": "L5W6", "text": "give" },
+        { "tokenId": "L5W7", "text": "us" },
+        { "tokenId": "L5W8", "text": "success." }
       ],
       "hintText": "Nehemiah trusted that God was with him, even when the work felt impossible."
     }
