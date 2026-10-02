@@ -23,11 +23,163 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 50,
+      "layer": "",
+      "locked": false,
+      "name": "foundation",
+      "opacity": 255,
+      "persistentUuid": "114965c6-99f8-42b9-b953-b91aeb72be6b",
+      "width": 800,
+      "x": 0,
+      "y": 550,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "StoneBlock",
+      "opacity": 255,
+      "persistentUuid": "96253daa-0358-4954-86d4-c1c5acf49f60",
+      "width": 0,
+      "x": 350,
+      "y": 450,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "StoneBlock",
+      "opacity": 255,
+      "persistentUuid": "b3e2590e-945e-4982-adeb-f73df2a6d2c3",
+      "width": 0,
+      "x": 350,
+      "y": 380,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "StoneBlock",
+      "opacity": 255,
+      "persistentUuid": "528e34e2-9524-4ee3-a774-8becb3022f73",
+      "width": 0,
+      "x": 350,
+      "y": 310,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "VerseTile",
+      "opacity": 255,
+      "persistentUuid": "ad0dd687-6d04-432e-ac81-7b43f70e2f34",
+      "width": 0,
+      "x": 100,
+      "y": 520,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "TileID",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "VerseTile",
+      "opacity": 255,
+      "persistentUuid": "ba70032f-62d4-4f2f-98c1-960dbbb5359d",
+      "width": 0,
+      "x": 350,
+      "y": 520,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "TileID",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "flippedX": false,
+      "flippedY": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "VerseTile",
+      "opacity": 255,
+      "persistentUuid": "d9b38a82-2916-47c5-9f95-0798a95874e4",
+      "width": 0,
+      "x": 600,
+      "y": 520,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "TileID",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    }
+  ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
+      "assetStoreId": "45aea69d88e74733358122f043ba08a5fc98417f720e885b8d306f0be5504f5b",
       "name": "StoneBlock",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -58,12 +210,61 @@
           "masks": 1
         }
       ],
-      "animations": []
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orange block.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 140,
+                        "y": 0
+                      },
+                      {
+                        "x": 140,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "WallFOundation",
+      "assetStoreId": "3cbade00c5ee6859424d370235f315f095fc988b5b9e2159c4490cf47661fb1b",
+      "name": "WallFoundation",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -93,7 +294,104 @@
           "masks": 1
         }
       ],
-      "animations": []
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ground Green_Idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ground Green_Target.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -148,6 +446,63 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "foundation",
+      "texture": "platformPack_tile001.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ]
+    },
+    {
+      "assetStoreId": "beb331ca97d54948638402039e1646746ed7dcbf0c7db69fe93c80e4e9d5c80d",
+      "bottomMargin": 42,
+      "height": 96,
+      "leftMargin": 42,
+      "name": "titlePanel",
+      "rightMargin": 42,
+      "texture": "panel-border-020.png",
+      "tiled": false,
+      "topMargin": 42,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [
+        {
+          "name": "TileID",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -157,10 +512,16 @@
         "objectName": "StoneBlock"
       },
       {
-        "objectName": "WallFOundation"
+        "objectName": "WallFoundation"
+      },
+      {
+        "objectName": "foundation"
       },
       {
         "objectName": "VerseTile"
+      },
+      {
+        "objectName": "titlePanel"
       }
     ]
   },

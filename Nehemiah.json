@@ -94,7 +94,104 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "file": "assets/Orange block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange block.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/5dd8df2bf72819a6028de740c041198fa4a54ad08dd30ef3eb6c864bb30f872f_Orange block.png",
+          "name": "Orange block.png"
+        }
+      },
+      {
+        "file": "assets/Ground Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground Brown_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Ground/0cfc787294ea8ac4c7911f29657629f3877f34bd4f5959e22dfab39c8b48760f_Ground Brown_Idle.png",
+          "name": "Ground Brown_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Ground Brown_Target.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground Brown_Target.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Ground/4ae596bab9241dc2720d06fef216f81c0102154c91030f753bc6a63d931d1064_Ground Brown_Target.png",
+          "name": "Ground Brown_Target.png"
+        }
+      },
+      {
+        "file": "assets/Ground Green_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground Green_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Ground/b8d7cc649a288798826dd01386b7620e35078eb495023ce22cb89dcbb900dfc2_Ground Green_Idle.png",
+          "name": "Ground Green_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Ground Green_Target.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground Green_Target.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Ground/e8a3f267017be537ff4c123f23b85b1ff67c886e5bcb753066ba7efad98897af_Ground Green_Target.png",
+          "name": "Ground Green_Target.png"
+        }
+      },
+      {
+        "file": "platformPack_tilesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "platformPack_tilesheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "platformPack_tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "platformPack_tile001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/panel-border-020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panel-border-020.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Borders/8773b19e89266b7467c4e3644ef55baba0bc0381eced2557b51ddcbe15b4e991_panel-border-020.png",
+          "name": "panel-border-020.png"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
