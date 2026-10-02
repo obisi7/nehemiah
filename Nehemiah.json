@@ -191,6 +191,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Borders/8773b19e89266b7467c4e3644ef55baba0bc0381eced2557b51ddcbe15b4e991_panel-border-020.png",
           "name": "panel-border-020.png"
         }
+      },
+      {
+        "file": "data/scriptures.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "scriptures.json",
+        "userAdded": true
       }
     ]
   },
