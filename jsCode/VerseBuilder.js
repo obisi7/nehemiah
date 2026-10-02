@@ -26,7 +26,7 @@ gdjs.evtTools.verseBuilder = {};
 
   /**
    * Reads a level's phraseTokens from a scene/global structure variable
-   * (loaded from data/verses.json into e.g. a "LevelData" JSON variable),
+   * (loaded from data/scriptures.json into e.g. a "LevelData" JSON variable),
    * tags each token with its correct index, and writes a shuffled tile
    * list into outputVariableName for the Event Sheet to spawn objects from.
    *

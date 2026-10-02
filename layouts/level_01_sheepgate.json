@@ -23,159 +23,7 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 50,
-      "layer": "",
-      "locked": false,
-      "name": "foundation",
-      "opacity": 255,
-      "persistentUuid": "114965c6-99f8-42b9-b953-b91aeb72be6b",
-      "width": 800,
-      "x": 0,
-      "y": 550,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "StoneBlock",
-      "opacity": 255,
-      "persistentUuid": "96253daa-0358-4954-86d4-c1c5acf49f60",
-      "width": 0,
-      "x": 350,
-      "y": 450,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "StoneBlock",
-      "opacity": 255,
-      "persistentUuid": "b3e2590e-945e-4982-adeb-f73df2a6d2c3",
-      "width": 0,
-      "x": 350,
-      "y": 380,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "StoneBlock",
-      "opacity": 255,
-      "persistentUuid": "528e34e2-9524-4ee3-a774-8becb3022f73",
-      "width": 0,
-      "x": 350,
-      "y": 310,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "VerseTile",
-      "opacity": 255,
-      "persistentUuid": "ad0dd687-6d04-432e-ac81-7b43f70e2f34",
-      "width": 0,
-      "x": 100,
-      "y": 520,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "TileID",
-          "type": "number",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "VerseTile",
-      "opacity": 255,
-      "persistentUuid": "ba70032f-62d4-4f2f-98c1-960dbbb5359d",
-      "width": 0,
-      "x": 350,
-      "y": 520,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "TileID",
-          "type": "number",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "VerseTile",
-      "opacity": 255,
-      "persistentUuid": "d9b38a82-2916-47c5-9f95-0798a95874e4",
-      "width": 0,
-      "x": 600,
-      "y": 520,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "TileID",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    }
-  ],
+  "instances": [],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
@@ -525,7 +373,13 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
