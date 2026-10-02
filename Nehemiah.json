@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 231,
+    "build": 283,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -18,6 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "Nehemiah",
     "description": "",
@@ -190,16 +191,8 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Borders/8773b19e89266b7467c4e3644ef55baba0bc0381eced2557b51ddcbe15b4e991_panel-border-020.png",
           "name": "panel-border-020.png"
         }
-      },
-      {
-        "file": "data/scriptures.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "scriptures.json",
-        "userAdded": true
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {

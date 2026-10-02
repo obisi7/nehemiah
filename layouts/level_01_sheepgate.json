@@ -1,25 +1,29 @@
 {
-  "b": 209,
+  "b": 189,
   "disableInputWhenNotFocused": true,
   "mangledName": "Level_9501_95SheepGate",
   "name": "Level_01_SheepGate",
-  "r": 209,
+  "r": 28,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 201,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
+    "gridDepth": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
+    "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
     "zoomFactor": 0.546875,
-    "windowMask": false
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [],
@@ -110,138 +114,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "3cbade00c5ee6859424d370235f315f095fc988b5b9e2159c4490cf47661fb1b",
-      "name": "WallFoundation",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ground Green_Idle.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Target",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ground Green_Target.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -259,9 +131,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "string": "Text",
@@ -292,13 +164,14 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
+        "lineHeight": 0,
         "color": "0;0;0"
       }
     },
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "foundation",
+      "name": "WallFoundation",
       "texture": "platformPack_tile001.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -329,28 +202,6 @@
           "masks": 1
         }
       ]
-    },
-    {
-      "assetStoreId": "beb331ca97d54948638402039e1646746ed7dcbf0c7db69fe93c80e4e9d5c80d",
-      "bottomMargin": 42,
-      "height": 96,
-      "leftMargin": 42,
-      "name": "titlePanel",
-      "rightMargin": 42,
-      "texture": "panel-border-020.png",
-      "tiled": false,
-      "topMargin": 42,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 96,
-      "variables": [
-        {
-          "name": "TileID",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -363,13 +214,7 @@
         "objectName": "WallFoundation"
       },
       {
-        "objectName": "foundation"
-      },
-      {
         "objectName": "VerseTile"
-      },
-      {
-        "objectName": "titlePanel"
       }
     ]
   },
@@ -378,6 +223,71 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": [
+        "runtimeScene.setBackgroundColor(100,100,240);",
+        "",
+        "gdjs.AutoBuilder = gdjs.AutoBuilder || {};",
+        "",
+        "gdjs.AutoBuilder.setupLevel = function (runtimeScene, levelNumber) {",
+        "  if (gdjs.AutoBuilder._hasRun) {",
+        "    return;",
+        "  }",
+        "  gdjs.AutoBuilder._hasRun = true;",
+        "",
+        "  // 1. Wall foundation",
+        "  const foundation = runtimeScene.createObject(\"WallFoundation\");",
+        "  if (foundation) {",
+        "    foundation.setX(0);",
+        "    foundation.setY(520);",
+        "    foundation.setWidth(800);",
+        "    foundation.setHeight(80);",
+        "  }",
+        "",
+        "  // 2. Stone blocks, stacked vertically above the foundation.",
+        "  const stoneBlockPositions = [",
+        "    { x: 360, y: 400 },",
+        "    { x: 360, y: 330 },",
+        "    { x: 360, y: 260 },",
+        "  ];",
+        "  stoneBlockPositions.forEach(function (position) {",
+        "    const stoneBlock = runtimeScene.createObject(\"StoneBlock\");",
+        "    if (stoneBlock) {",
+        "      stoneBlock.setX(position.x);",
+        "      stoneBlock.setY(position.y);",
+        "    }",
+        "  });",
+        "",
+        "  // 3. Verse tiles along the bottom UI row.",
+        "  const tiles = [",
+        "    { x: 80, y: 550, text: \"Do not grieve,\" },",
+        "    { x: 320, y: 550, text: \"for the joy of the LORD\" },",
+        "    { x: 560, y: 550, text: \"is your strength.\" },",
+        "  ];",
+        "  tiles.forEach(function (tile, index) {",
+        "    const verseTile = runtimeScene.createObject(\"VerseTile\");",
+        "    if (!verseTile) {",
+        "      return;",
+        "    }",
+        "    verseTile.setX(tile.x);",
+        "    verseTile.setY(tile.y);",
+        "    verseTile.setString(tile.text);",
+        "    verseTile.getVariables().get(\"TileID\").setNumber(index + 1);",
+        "  });",
+        "};",
+        "",
+        "gdjs.AutoBuilder.setupLevel(runtimeScene, 1);"
+      ],
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": false
     }
   ],
   "layers": [
@@ -385,6 +295,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
