@@ -31,13 +31,9 @@
     {
       "angle": 0,
       "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "HUDText",
-      "opacity": 255,
       "persistentUuid": "5f9d6e3a-2b7c-4f1e-9a3d-7c8e1b2d4f60",
       "width": 0,
       "x": 20,
@@ -50,13 +46,9 @@
     {
       "angle": 0,
       "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "PauseButton",
-      "opacity": 255,
       "persistentUuid": "7a1c2d3e-4f5b-4a6c-8d9e-0f1a2b3c4d5e",
       "width": 0,
       "x": 980,
@@ -69,13 +61,9 @@
     {
       "angle": 0,
       "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "RestartButton",
-      "opacity": 255,
       "persistentUuid": "9b2d3e4f-5a6b-4c7d-9e0f-1a2b3c4d5e6f",
       "width": 0,
       "x": 1140,
@@ -88,13 +76,9 @@
     {
       "angle": 0,
       "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "ReferenceLabel",
-      "opacity": 255,
       "persistentUuid": "5d6e7f80-91a2-4b3c-9d4e-6f7a8b9c0d1e",
       "width": 0,
       "x": 20,
@@ -107,13 +91,9 @@
     {
       "angle": 0,
       "customSize": false,
-      "flippedX": false,
-      "flippedY": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "HintText",
-      "opacity": 255,
       "persistentUuid": "3c4d5e6f-7a8b-4c9d-8e0f-2a3b4c5d6e7f",
       "width": 0,
       "x": 340,
@@ -526,6 +506,199 @@
         "lineHeight": 0,
         "color": "255;240;80"
       }
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 85,
+      "emitterForceMin": 45,
+      "flow": 200,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "ConfettiEmitter",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 0,
+      "particleColor1": "255;51;51",
+      "particleColor2": "255;255;0",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 51,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tank": 40,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c77e27618d2e60931794bb3740f809f5b4926ddf9f423cb25d42b797401be143",
+      "name": "Desert_Background",
+      "persistentUuid": "9a226bec-d2fc-4f19-ab3b-da857a9ca283",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Desert Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 960
+                      },
+                      {
+                        "x": 0,
+                        "y": 960
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "23ab75961f5a86f1789c9ec1c7000792d88468c784862c9459be71eb13ba9316",
+      "name": "Summer_Background",
+      "persistentUuid": "7af2e84e-7368-4915-8533-34a59421ed72",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Summer Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 750
+                      },
+                      {
+                        "x": 0,
+                        "y": 750
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "448e6de5303b26df286a6859fa829c7c3136f3e1773090cfcd7dea0ca1d6006b",
+      "height": 256,
+      "name": "background_color_trees",
+      "persistentUuid": "61ed6a9e-1a1c-4a20-9d29-349baf91ae50",
+      "texture": "tiled_background color trees.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "3a50c8a940670eb3cd63065f30cd104b595ab49fd621a9b6b0b1b91996963f8d",
+      "height": 240,
+      "name": "Sky_Background",
+      "persistentUuid": "6470cf92-718c-4800-adf4-5118a8df12c1",
+      "texture": "tiled_Sky Background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 320,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -554,6 +727,21 @@
       },
       {
         "objectName": "HintText"
+      },
+      {
+        "objectName": "ConfettiEmitter"
+      },
+      {
+        "objectName": "Sky_Background"
+      },
+      {
+        "objectName": "background_color_trees"
+      },
+      {
+        "objectName": "Summer_Background"
+      },
+      {
+        "objectName": "Desert_Background"
       }
     ]
   },
@@ -1307,6 +1495,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

@@ -193,11 +193,60 @@
         }
       },
       {
+        "disablePreload": false,
         "file": "data/scriptures.json",
         "kind": "json",
         "metadata": "",
         "name": "scriptures.json",
         "userAdded": true
+      },
+      {
+        "file": "assets/Desert Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Desert Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Desert/Background/cddbec3295ecf88530dd334aa8b50a84d9cc26cc022a8ac981aa34f8e53dfb9f_Desert Background.png",
+          "name": "Desert Background.png"
+        }
+      },
+      {
+        "file": "assets/Summer Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Summer Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Background/8ee648958d2a9b8a553c5c9d1ccdebb936eefa0414d250aef2dd763b07217b7e_Summer Background.png",
+          "name": "Summer Background.png"
+        }
+      },
+      {
+        "file": "assets/tiled_background color trees.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_background color trees.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Backgrounds/09ff5bdca372339cb9b8d54f5c2e993e1d1c193f9cf2494b0ca0113205df77f9_tiled_background color trees.png",
+          "name": "tiled_background color trees.png"
+        }
+      },
+      {
+        "file": "assets/tiled_Sky Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Sky Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Background/1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png",
+          "name": "tiled_Sky Background.png"
+        }
       }
     ]
   },
